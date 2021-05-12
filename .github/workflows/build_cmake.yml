@@ -18,10 +18,10 @@ jobs:
           unit_test_build: -Dtest=ON
 
       - name: List
-        run: ls -al /home/runner/work/
+        run: ls -al /home/runner/work/TymoshenkoCI/TymoshenkoCI/build
 
       - name: Run
-        run: /home/runner/work/testci/testci/build/untitled
+        run: /home/runner/work/TymoshenkoCI/TymoshenkoCI/build/untitled
 
       - name: Run tests
-        run: /home/runner/work/testci/testci/build/tests
+        run: /home/runner/work/TymoshenkoCI/TymoshenkoCI/build/tests
